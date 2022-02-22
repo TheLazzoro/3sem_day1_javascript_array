@@ -50,47 +50,50 @@ All questions are one-liners, so the main task is to figure out which method to 
 </br>
 
 4. Add the names Lone and Gitte to the end of the array (remember, all can be done in one-liners)
-    1. The array type provides methods to add items to the start **unshift()** and to the end **push(..)** of an array.
+    - Hint:  **push(..)**
 
 </br>
 
 5. Add the names, Hans and Kurt, to the start of the array (See end of document for a better/newer way)
+    - Hint:  **unshift()**
  
 </br>
 
 6. Remove the first name in the array (Hans)
-    1. The array type provides methods to remove items from the start **shift()** and from the end **pop(..)** of an array.
+    - Hint: **shift()**
 
 </br>
 
 7. Remove the last name from the array (Gitte)
-    1. The array type provides a method splice(..) which changes the array by removing existing elements and/or adding new.
+    - Hint: **pop(..)** 
 
 </br>
 
 8. Remove Ole and Janne from the middle of the array
-    1. The array type provides a method reverse() to reverse the elements of an array.
+    1. Hint: **splice(..)**
 
 </br>
 
 9. Sanne thinks it’s unfair that the boys have to come first, reverse the all array, so that the girls comes first.
-    1. The array type provides a method sort() to sort the elements of an array.
+    - Hint: **reverse()** 
 
 </br>
 
 10. Peter thinks that this is just as unfair and suggests that the array should be sorted. Sort the array.
-
+    - Hint: **sort()**
+    
 </br>
 
 11. The default sort algorithm doesn’t handle the situation where the name can be either capitalized or not. Write a user-defined sort method to fix this problem.
 
 </br>
 
-12. Convert all the names in the array to uppercase using map.
+12. Convert all the names in the array to uppercase using **map()**.
 
 </br>
 
-13. Create a new array containing all the names that start with either “l” or “L” (hint: use the **filter** function with a sufficient callback).
+13. Create a new array containing all the names that start with either “l” or “L”.
+    - Hint: use the **filter** function with a sufficient callback.
 
 </br>
 
