@@ -140,3 +140,25 @@ console.log("");
 console.log("---");
 console.log("EXERCISE 13:");
 console.log(arr);
+
+
+
+console.log("");
+console.log("---");
+console.log("EXERCISE X:");
+
+// Returns a new array
+const newAll = all.map( (element, index) => {
+    console.log(index + ": " + element);
+    if(element == "Sanne")
+        return element;
+    // return element == "Sanne";
+});
+
+console.log(newAll);
+
+// Just loops through the array
+all.forEach( (element, index) => {
+    console.log(index + ": " + element);
+    // console.log(element);
+});
